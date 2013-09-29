@@ -1,1 +1,1 @@
-web: node src/mini-avenger.js
+web: node src/web.js
