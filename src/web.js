@@ -16,8 +16,6 @@ server.get('/', restify.serveStatic({
     default: 'index.html'
 }))
 
-server.get('/foo', function (res))
-
 server.listen(process.env.PORT || 8080, function() {
     console.log('%s listening at %s', server.name, server.url);
 });
